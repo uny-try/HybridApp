@@ -19,6 +19,8 @@ public static class MauiProgram
         // Add device-specific services used by the ConnectFour.Shared project
         builder.Services.AddSingleton<IFormFactor, FormFactor>();
 
+        builder.Services.AddSingleton<GameState>();
+
         builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG

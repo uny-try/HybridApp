@@ -11,6 +11,8 @@ builder.Services.AddRazorComponents()
 // Add device-specific services used by the ConnectFour.Shared project
 builder.Services.AddSingleton<IFormFactor, FormFactor>();
 
+builder.Services.AddSingleton<GameState>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
