@@ -13,7 +13,14 @@
 </head>
 
 <body>
-    <Routes @rendermode="InteractiveServer" />
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <RouteView RouteData="@routeData" DefaultLayout="typeof(ConnectFour.Shared.Layout.MainLayout)" />
+        </Found>
+        <NotFound>
+            <h1>Not found</h1>
+        </NotFound>
+    </Router>
     <script src="_framework/blazor.web.js"></script>
 </body>
 
