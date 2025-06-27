@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour.Shared", "Conne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour.Web", "ConnectFour\ConnectFour.Web\ConnectFour.Web.csproj", "{96341002-99AE-438F-807C-1A0FB258B261}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D192C3F7-B574-42A3-B8B2-C6440C23010B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{96341002-99AE-438F-807C-1A0FB258B261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96341002-99AE-438F-807C-1A0FB258B261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96341002-99AE-438F-807C-1A0FB258B261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D192C3F7-B574-42A3-B8B2-C6440C23010B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D192C3F7-B574-42A3-B8B2-C6440C23010B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D192C3F7-B574-42A3-B8B2-C6440C23010B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D192C3F7-B574-42A3-B8B2-C6440C23010B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
